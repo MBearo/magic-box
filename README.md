@@ -15,15 +15,12 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
+### Run development server
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm run dev
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Run production server
+```
+npm run prod
+```
