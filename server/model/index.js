@@ -1,4 +1,5 @@
 
 module.exports = {
-  Boxview: require('./boxview')
+  Boxview: require('./boxview'),
+  Boxposition: require('./boxposition')
 }
