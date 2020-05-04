@@ -115,7 +115,7 @@ export default {
     refresh () {
       if (this.type === 'box') {
         axios({
-          url: `${process.env.VUE_APP_WS_URL}/getPosition`,
+          url: `${process.env.VUE_APP_BASE_IP}/getPosition`,
           params: {
             id: this.id
           }
@@ -139,7 +139,7 @@ export default {
     submit () {
       console.log(this.position)
       axios({
-        url: `${process.env.VUE_APP_WS_URL}/updatePosition`,
+        url: `${process.env.VUE_APP_BASE_IP}/updatePosition`,
         method: 'post',
         data: {
           id: this.id,
